@@ -11,9 +11,9 @@ namespace UseService
 			{
 				context.Response.ContentType = "text/html;charset=utf-8";
 
-			    var env = app.Services.GetService<IHostEnvironment>();
+				var env = context.RequestServices.GetRequiredService<IHostEnvironment>();
 
-				await context.Response.WriteAsync($"Привет из приложения {env!.ApplicationName}, среда {env.EnvironmentName}");
+				await context.Response.WriteAsync($"Привет из приложения {env.ApplicationName}, среда {env.EnvironmentName}");
 			});
 
 			app.Run();
