@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmptyProject", "EmptyProjec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseService", "UseService\UseService.csproj", "{D6673DC1-A225-47F9-8A1D-8863F8CC765F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareDependencyInjection", "MiddlewareDependencyInjection\MiddlewareDependencyInjection.csproj", "{C5ADAF15-C4B0-475A-879F-E5521BE21B3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D6673DC1-A225-47F9-8A1D-8863F8CC765F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6673DC1-A225-47F9-8A1D-8863F8CC765F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6673DC1-A225-47F9-8A1D-8863F8CC765F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5ADAF15-C4B0-475A-879F-E5521BE21B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5ADAF15-C4B0-475A-879F-E5521BE21B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5ADAF15-C4B0-475A-879F-E5521BE21B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5ADAF15-C4B0-475A-879F-E5521BE21B3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

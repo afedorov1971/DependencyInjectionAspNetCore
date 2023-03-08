@@ -9,7 +9,7 @@ namespace UseService
 
 			app.MapGet("/", async context =>
 			{
-				context.Response.ContentType = "text/html;charset=utf-8";
+				context.Response.ContentType = "text/plain;charset=utf-8";
 
 				var env = context.RequestServices.GetRequiredService<IHostEnvironment>();
 
