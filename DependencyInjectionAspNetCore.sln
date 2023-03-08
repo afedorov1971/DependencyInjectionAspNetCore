@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareDependencyInjecti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareDependencyInjection2", "MiddlewareDependencyInjection2\MiddlewareDependencyInjection2.csproj", "{D29CE170-FAE5-4CA3-9FDB-52682DB90169}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransientService", "TransientService\TransientService.csproj", "{C1FC80B4-49C2-4DAF-9DA7-C353550F9A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonService", "SingletonService\SingletonService.csproj", "{EA1EE04E-7B70-4434-84CE-628A6B754907}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{D29CE170-FAE5-4CA3-9FDB-52682DB90169}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D29CE170-FAE5-4CA3-9FDB-52682DB90169}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D29CE170-FAE5-4CA3-9FDB-52682DB90169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1FC80B4-49C2-4DAF-9DA7-C353550F9A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FC80B4-49C2-4DAF-9DA7-C353550F9A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FC80B4-49C2-4DAF-9DA7-C353550F9A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FC80B4-49C2-4DAF-9DA7-C353550F9A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1EE04E-7B70-4434-84CE-628A6B754907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1EE04E-7B70-4434-84CE-628A6B754907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1EE04E-7B70-4434-84CE-628A6B754907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1EE04E-7B70-4434-84CE-628A6B754907}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
