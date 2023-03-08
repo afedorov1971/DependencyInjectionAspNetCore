@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransientService", "Transie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonService", "SingletonService\SingletonService.csproj", "{EA1EE04E-7B70-4434-84CE-628A6B754907}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScopedService", "ScopedService\ScopedService.csproj", "{D726F7C7-3EB7-4EDF-82EC-3779E59D8774}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{EA1EE04E-7B70-4434-84CE-628A6B754907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA1EE04E-7B70-4434-84CE-628A6B754907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA1EE04E-7B70-4434-84CE-628A6B754907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D726F7C7-3EB7-4EDF-82EC-3779E59D8774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D726F7C7-3EB7-4EDF-82EC-3779E59D8774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D726F7C7-3EB7-4EDF-82EC-3779E59D8774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D726F7C7-3EB7-4EDF-82EC-3779E59D8774}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
